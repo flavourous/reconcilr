@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Reconcilr.Core/Reconcilr.Core.csproj" />
+  <Project Path="Reconcilr.Generator/Reconcilr.Generator.csproj" />
+  <Project Path="Reconcilr.SmokeTests/Reconcilr.SmokeTests.csproj" />
+</Solution>
