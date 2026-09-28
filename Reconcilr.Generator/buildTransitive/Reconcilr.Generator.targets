@@ -1,0 +1,10 @@
+<Project>
+  <Target Name="Reconcilr_Generator_ConfigurePackageReference" BeforeTargets="ResolvePackageAssets">
+    <ItemGroup>
+      <PackageReference Update="Reconcilr.Generator">
+        <OutputItemType>Analyzer</OutputItemType>
+        <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      </PackageReference>
+    </ItemGroup>
+  </Target>
+</Project>
